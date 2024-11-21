@@ -126,14 +126,27 @@ ul li:last-child {
         cursor: pointer;
         transition: background-color 0.3s;
         margin: 8px;
+        text-align: center;
+}
+
+.saveEditBtn, .cancelEditBtn {
+    width: 8em;
 }
 
 #listaDeGastos li {
     font-size: 0.8rem;
 }
 
+#product_name, #product_price {
+    width: 120px;
+}
+
 
 @media screen and (max-width: 880px) {
+
+    .main-container {
+        width: 80%;
+    }
 
     #botonFormulario {
     text-align: left;
@@ -150,10 +163,6 @@ ul li:last-child {
         padding: 3px 8px;
     }
 
-    .editarBtn {
-        margin-left: 30px;
-    }
-
     .form-group {
         width: 70%;
     }
@@ -161,6 +170,18 @@ ul li:last-child {
     #botonFormulario {
         font-size: 0.8rem;
     }
+
+}
+
+@media screen and (max-width: 760px) {
+    ul li {
+        flex-direction: column;
+    }
+
+    #product_name, #product_price {
+        margin: 6px;
+    }
+
 
 }
 
