@@ -54,7 +54,7 @@ ul li {
     background-color: #041832;
     border-bottom: 1px solid #eee;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     font-size: 1rem;
 }
@@ -126,10 +126,6 @@ ul li:last-child {
         cursor: pointer;
         transition: background-color 0.3s;
         margin: 8px;
-}
-
-.editarBtn {
-    margin-left: 50px;
 }
 
 #listaDeGastos li {
